@@ -123,6 +123,8 @@ img {
 
 
 #aboutMe {
+    margin: 10px;
+    padding: 10px;
     border-radius: 50px;
     background-color: #b61abe;
     display: flex;
@@ -140,6 +142,8 @@ img {
 }
 
 #FunFact {
+    margin: 10px;
+    padding: 10px;
     border-radius: 50px;
     background-color: #b61abe;
     display: flex;
@@ -157,6 +161,8 @@ img {
 }
 
 #links {
+    margin: 10px;
+    padding: 10px;
     border-radius: 50px;
     background-color:  #b61abe;
     display: flex;
@@ -168,7 +174,12 @@ img {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+#links .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 
 #links p {
     font-size: 20px;
