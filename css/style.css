@@ -147,18 +147,27 @@ img {
     border-radius: 50px;
     background-color: #b61abe;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
+#FunFact img {
+    float: left;
+    width: 100px;
+    height: 200px; 
+} 
+
 #FunFact h2 {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #FunFact p {
+    padding: 10px;
     font-size: 20px;
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 
 #links {
     margin: 10px;
