@@ -136,6 +136,9 @@ img {
     align-items: center;
     flex-direction: column;
 }
+#aboutMe:hover {
+    transform: translateY(-10px) ;
+}
 
 #aboutMe h2 {
     font-size: 30px;
@@ -155,6 +158,11 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+#FunFact:hover {
+    transform: translateY(-10px) ;
+}
+
 #FunFact h2 {
     padding-bottom: 10px;
     text-align: center;
@@ -190,6 +198,10 @@ img {
     align-items: center;
     flex-direction: column;
 }
+#links:hover {
+    transform: translateY(-10px) ;
+}
+
 #links h2 {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
